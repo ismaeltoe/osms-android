@@ -4,6 +4,29 @@ Provides an Android wrapper for the Orange SMS API.
 
 ## Usage
 
+**Retrieves an access token**
+
+```java
+Osms osms = new Osms("YOUR_CLIENT_ID", "YOUR_CLIENT_SECRET");
+
+CredentialsService credentialsService = osms.credentials();
+
+credentialsService.getAccessToken(
+    "client_credentials",
+	new Callback<CredentialsEntity>() {
+	    @Override
+		public void success(CredentialsEntity credentialsEntity, Response response) {
+		    // token successfully retrieved
+		}
+		
+		@Override
+		public void failure(RetrofitError error) {
+		    // an error has occured
+		}
+	}
+)
+```
+
 **Send a message**
 
 ```java
