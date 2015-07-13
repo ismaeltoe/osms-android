@@ -4,7 +4,7 @@ Provides an Android wrapper for the Orange SMS API.
 
 ## Usage
 
-**Retrieves an access token**
+**Retrieve an access token**
 
 ```java
 Osms osms = new Osms("YOUR_CLIENT_ID", "YOUR_CLIENT_SECRET");
