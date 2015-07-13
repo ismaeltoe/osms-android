@@ -59,6 +59,10 @@ Add the following dependency to your Gradle project:
 ## Developed By
 
  * Ismael Toé - <ismael.toe@gmail.com>
+ 
+## Other Libraries
+
+ * [osms-php](https://github.com/ismaeltoe/osms-php)
 
 ## License
 
