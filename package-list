@@ -1,0 +1,8 @@
+com.github.ismaeltoe.osms.library
+com.github.ismaeltoe.osms.library.entities
+com.github.ismaeltoe.osms.library.entities.contract
+com.github.ismaeltoe.osms.library.entities.error
+com.github.ismaeltoe.osms.library.entities.messaging
+com.github.ismaeltoe.osms.library.entities.purchase
+com.github.ismaeltoe.osms.library.entities.statistic
+com.github.ismaeltoe.osms.library.services
