@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivityFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/accessToken"
+            android:text="Access Token"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true" />
+
+        <Button android:id="@+id/gAccessToken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate Access Token" />
+
+        <TextView android:id="@+id/contracts"
+            android:text="Contracts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true" />
+
+        <Button android:id="@+id/gContracts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Contracts" />
+
+        <TextView android:id="@+id/purchaseHistory"
+            android:text="Purchase History"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true" />
+
+        <Button android:id="@+id/gPurchaseHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Purchase History" />
+
+        <TextView android:id="@+id/statistics"
+            android:text="Statistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true" />
+
+        <Button android:id="@+id/gStatistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Statistics" />
+
+        <TextView android:id="@+id/sendMessage"
+            android:text="Message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true" />
+
+        <Button android:id="@+id/gSendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Message" />
+
+    </LinearLayout>
+
+</ScrollView>
