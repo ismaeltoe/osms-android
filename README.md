@@ -1,3 +1,7 @@
+# DEPRECATED
+
+osms-android is deprecated. No more development will be taking place. It's better not to use it. Instead, see it as a hint on how to integrate Orange SMS API in your Android project and use the latest version of [Retrofit](https://github.com/square/retrofithttps://github.com/square/retrofit). Much has changed since the release of osms-android.
+
 # osms-android
 
 Provides an Android wrapper for the Orange SMS API.
