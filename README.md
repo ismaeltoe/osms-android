@@ -82,7 +82,7 @@ Add the following dependency to your Gradle project:
 ## Reference
 
  * Javadoc [http://ismaeltoe.github.io/osms-android](http://ismaeltoe.github.io/osms-android/)
- * Native API [https://www.orangepartner.com/SMS-CI-API](https://www.orangepartner.com/SMS-CI-API)
+ * Native API [https://developer.orange.com/apis/sms-ci/getting-started](https://developer.orange.com/apis/sms-ci/getting-started)
  
 ## Developed By
 
